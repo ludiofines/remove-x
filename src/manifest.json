@@ -1,0 +1,27 @@
+{
+	"manifest_version":2,
+	"name":"Remove X",
+	"version":"1.0",
+	"description":"remove x window",
+	"icons":{
+		"48":"icons/border-48.png"
+	},
+	"content_scripts":[
+	  {
+	  	"matches":[
+				"http://*/*",
+				"https://*/*"
+			],
+	  	"js":["x.js"]
+	  }
+	],
+	"web_accessible_resources":["remove-x.js"],
+	"applications": {
+  	"gecko": {
+  	  "id": "remove-x@example.com",
+  	  "strict_min_version": "42.*",
+  	  "strict_max_version": "50.*",
+  	  "update_url": "https://example.com/updates.json"
+  	}
+	}
+}
