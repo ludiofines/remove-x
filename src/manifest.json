@@ -12,10 +12,9 @@
 				"http://*/*",
 				"https://*/*"
 			],
-	  	"js":["x.js"]
+	  	"js":["remove-x.js"]
 	  }
 	],
-	"web_accessible_resources":["remove-x.js"],
 	"applications": {
   	"gecko": {
   	  "id": "remove-x@example.com",

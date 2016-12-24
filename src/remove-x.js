@@ -4,5 +4,3 @@ if (frame !== null)
 	frame.style.display = '';
 	console.log('removed x');
 }
-console.log('remove x');
-console.log(frame);
